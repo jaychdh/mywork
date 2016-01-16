@@ -1,0 +1,26 @@
+/* Style the navigation bar links */
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700italic);
+            #navbar a {
+                
+                font-family: 'Droid Serif', serif;
+                font-size: 1.5em;
+                margin: 0px 10px 0px 10px;
+                padding: 0px 8px 0px 8px;
+                color: black;
+                text-decoration: none;
+                border: 2px solid;
+                border-color: white;
+                border-radius: 20px;
+                
+                
+                }
+            #navbar .active {
+                background-color: gray;
+                }
+#navbar a:hover {
+    border-color: black;
+    background-color: blue
+}
+#navbar a:click {
+    color:red
+}
